@@ -1,0 +1,15 @@
+# Môi trường ảo Python
+.venv/
+
+# Biến môi trường và bí mật
+.env
+*credentials*.json
+*key*.json
+
+# Python
+__pycache__/
+
+# dbt
+target/
+dbt_packages/
+logs/
