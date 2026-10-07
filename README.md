@@ -28,3 +28,8 @@ Xu ly du lieu ga4\_obfuscated\_sample\_ecommerce trong bigquery-public-data tren
 
 8\. Tham số source/medium ở cấp event phần lớn trống hoặc <Other>.
 
+9. traffic_source không cố định theo user: 42260/270154 user (15,6%) có nhiều hơn
+   1 cặp (medium, source) → gán nguồn của event sớm nhất cho mỗi user.
+10. 4182/270154 user (1,5%) có nhiều hơn 1 loại thiết bị → phân tích thiết bị theo phiên.
+11. device.category sạch: chỉ có desktop / mobile / tablet, không có giá trị bị làm mờ.
+
