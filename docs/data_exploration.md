@@ -42,4 +42,5 @@
 ### Lưu ý khi diễn giải (đưa vào mục Hạn chế và prompt LLM)
 14. Chênh lệch giữa các nhóm rất nhỏ: tỷ lệ chuyển đổi theo kênh 1,27%–1,51%, theo thiết bị 1,30%–1,39%.
     Không kết luận nhóm nào tốt hơn rõ rệt khi chưa làm kiểm định thống kê.
+15. Mọi event đều có ga_session_id (0/4295584 event NULL) → session_key luôn xác định được.
     
