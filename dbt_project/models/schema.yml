@@ -1,0 +1,49 @@
+version: 2
+
+models:
+  - name: stg_events
+    description: "Mỗi event GA4 một dòng; tham số đã làm phẳng, kiểu dữ liệu đã chuẩn hóa, vấn đề chất lượng đã gắn cờ."
+    columns:
+      - name: user_pseudo_id
+        description: "ID ẩn danh của user, gắn với trình duyệt/thiết bị."
+        data_tests:
+          - not_null
+      - name: event_name
+        data_tests:
+          - not_null
+      - name: session_key
+        description: "Khóa phiên = user_pseudo_id + '-' + ga_session_id."
+        data_tests:
+          - not_null
+      - name: device_category
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['desktop', 'mobile', 'tablet']
+      - name: traffic_channel
+        description: "Kênh của event, gộp từ traffic_source.medium; giá trị bị làm mờ gộp thành 'unknown'."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['organic', 'direct', 'referral', 'cpc', 'unknown']
+      - name: is_placeholder_txn
+        description: "TRUE nếu là event purchase có transaction_id NULL hoặc '(not set)'."
+
+  - name: mart_funnel
+    description: "Phễu chuyển đổi theo phiên, từ 26/11/2020 (trước đó add_to_cart thiếu tracking). Một dòng."
+
+  - name: mart_revenue_by_source
+    description: "Doanh thu và tỷ lệ chuyển đổi theo kênh của event sớm nhất mỗi user. Đã loại trùng purchase và loại mã giao dịch giữ chỗ."
+    columns:
+      - name: channel
+        data_tests:
+          - not_null
+          - unique
+
+  - name: mart_device_behavior
+    description: "Hành vi phiên theo thiết bị. Tính purchase theo phiên, kể cả mã giao dịch giữ chỗ."
+    columns:
+      - name: device_category
+        data_tests:
+          - not_null
+          - unique
