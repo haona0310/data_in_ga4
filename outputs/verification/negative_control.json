@@ -1,0 +1,33 @@
+{
+  "base_run": "20261009_161345",
+  "cases": [
+    {
+      "case": "Sai giá trị",
+      "field": "n_wrong_value",
+      "baseline": 0,
+      "after_injection": 1,
+      "detected": true
+    },
+    {
+      "case": "Key không tồn tại",
+      "field": "n_unknown_key",
+      "baseline": 0,
+      "after_injection": 1,
+      "detected": true
+    },
+    {
+      "case": "Số bịa không nhãn",
+      "field": "n_untraceable",
+      "baseline": 0,
+      "after_injection": 1,
+      "detected": true
+    },
+    {
+      "case": "Thiếu nhãn",
+      "field": "n_untagged_in_data",
+      "baseline": 0,
+      "after_injection": 1,
+      "detected": true
+    }
+  ]
+}

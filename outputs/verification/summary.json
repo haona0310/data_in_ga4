@@ -1,0 +1,16 @@
+[
+  {
+    "run_id": "20261009_161345",
+    "model": "models/gemini-3.5-flash",
+    "prompt_version": "v3",
+    "n_numbers": 61,
+    "n_tagged": 61,
+    "n_correct": 61,
+    "n_wrong_value": 0,
+    "n_unknown_key": 0,
+    "n_untagged_in_data": 0,
+    "n_untraceable": 0,
+    "tagged_accuracy": 1.0,
+    "verified_share": 1.0
+  }
+]
