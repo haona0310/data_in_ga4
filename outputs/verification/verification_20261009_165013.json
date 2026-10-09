@@ -1,0 +1,313 @@
+{
+  "run_id": "20261009_165013",
+  "model": "models/gemini-3.5-flash",
+  "prompt_version": "v3",
+  "summary": {
+    "n_numbers": 49,
+    "n_tagged": 49,
+    "n_correct": 49,
+    "n_wrong_value": 0,
+    "n_unknown_key": 0,
+    "n_untagged_in_data": 0,
+    "n_untraceable": 0,
+    "tagged_accuracy": 1.0,
+    "verified_share": 1.0
+  },
+  "tagged_numbers": [
+    {
+      "number": 874.0,
+      "key": "funnel.n_sessions_purchase_without_cart",
+      "truth": 874,
+      "status": "correct"
+    },
+    {
+      "number": 6.53,
+      "key": "funnel.rate_view_to_purchase",
+      "truth": 0.06533097906381752,
+      "status": "correct"
+    },
+    {
+      "number": 55502.0,
+      "key": "funnel.n_sessions_view_item",
+      "truth": 55502,
+      "status": "correct"
+    },
+    {
+      "number": 14578.0,
+      "key": "funnel.n_sessions_add_to_cart",
+      "truth": 14578,
+      "status": "correct"
+    },
+    {
+      "number": 26.27,
+      "key": "funnel.rate_view_to_cart",
+      "truth": 0.2626572015422868,
+      "status": "correct"
+    },
+    {
+      "number": 7433.0,
+      "key": "funnel.n_sessions_begin_checkout",
+      "truth": 7433,
+      "status": "correct"
+    },
+    {
+      "number": 3626.0,
+      "key": "funnel.n_sessions_purchase",
+      "truth": 3626,
+      "status": "correct"
+    },
+    {
+      "number": 50.99,
+      "key": "funnel.rate_cart_to_checkout",
+      "truth": 0.5098778982027713,
+      "status": "correct"
+    },
+    {
+      "number": 48.78,
+      "key": "funnel.rate_checkout_to_purchase",
+      "truth": 0.48782456612404146,
+      "status": "correct"
+    },
+    {
+      "number": 101742.0,
+      "key": "revenue.organic.n_users",
+      "truth": 101742,
+      "status": "correct"
+    },
+    {
+      "number": 106981.0,
+      "key": "revenue.organic.revenue",
+      "truth": 106981.0,
+      "status": "correct"
+    },
+    {
+      "number": 34.77,
+      "key": "revenue.organic.revenue_share",
+      "truth": 0.3477473670523989,
+      "status": "correct"
+    },
+    {
+      "number": 66.32,
+      "key": "revenue.organic.aov",
+      "truth": 66.32424054556726,
+      "status": "correct"
+    },
+    {
+      "number": 71535.0,
+      "key": "revenue.direct.revenue",
+      "truth": 71535.0,
+      "status": "correct"
+    },
+    {
+      "number": 23.25,
+      "key": "revenue.direct.revenue_share",
+      "truth": 0.2325282798075673,
+      "status": "correct"
+    },
+    {
+      "number": 64109.0,
+      "key": "revenue.direct.n_users",
+      "truth": 64109,
+      "status": "correct"
+    },
+    {
+      "number": 70.34,
+      "key": "revenue.direct.aov",
+      "truth": 70.33923303834808,
+      "status": "correct"
+    },
+    {
+      "number": 50001.0,
+      "key": "revenue.unknown.n_users",
+      "truth": 50001,
+      "status": "correct"
+    },
+    {
+      "number": 64161.0,
+      "key": "revenue.unknown.revenue",
+      "truth": 64161.0,
+      "status": "correct"
+    },
+    {
+      "number": 20.86,
+      "key": "revenue.unknown.revenue_share",
+      "truth": 0.20855870497984658,
+      "status": "correct"
+    },
+    {
+      "number": 71.05,
+      "key": "revenue.unknown.aov",
+      "truth": 71.0531561461794,
+      "status": "correct"
+    },
+    {
+      "number": 49409.0,
+      "key": "revenue.referral.revenue",
+      "truth": 49409.0,
+      "status": "correct"
+    },
+    {
+      "number": 40020.0,
+      "key": "revenue.referral.n_users",
+      "truth": 40020,
+      "status": "correct"
+    },
+    {
+      "number": 16.06,
+      "key": "revenue.referral.revenue_share",
+      "truth": 0.16060655311402938,
+      "status": "correct"
+    },
+    {
+      "number": 69.3,
+      "key": "revenue.referral.aov",
+      "truth": 69.29733520336606,
+      "status": "correct"
+    },
+    {
+      "number": 14282.0,
+      "key": "revenue.cpc.n_users",
+      "truth": 14282,
+      "status": "correct"
+    },
+    {
+      "number": 15554.0,
+      "key": "revenue.cpc.revenue",
+      "truth": 15554.0,
+      "status": "correct"
+    },
+    {
+      "number": 5.06,
+      "key": "revenue.cpc.revenue_share",
+      "truth": 0.05055909504615785,
+      "status": "correct"
+    },
+    {
+      "number": 75.87,
+      "key": "revenue.cpc.aov",
+      "truth": 75.87317073170732,
+      "status": "correct"
+    },
+    {
+      "number": 1.31,
+      "key": "revenue.organic.user_conversion_rate",
+      "truth": 0.013072280867291777,
+      "status": "correct"
+    },
+    {
+      "number": 1.32,
+      "key": "revenue.direct.user_conversion_rate",
+      "truth": 0.013165078226146095,
+      "status": "correct"
+    },
+    {
+      "number": 1.27,
+      "key": "revenue.cpc.user_conversion_rate",
+      "truth": 0.012673295056714745,
+      "status": "correct"
+    },
+    {
+      "number": 1.51,
+      "key": "revenue.referral.user_conversion_rate",
+      "truth": 0.015092453773113444,
+      "status": "correct"
+    },
+    {
+      "number": 1.49,
+      "key": "revenue.unknown.user_conversion_rate",
+      "truth": 0.014859702805943882,
+      "status": "correct"
+    },
+    {
+      "number": 208942.0,
+      "key": "device.desktop.n_sessions",
+      "truth": 208942,
+      "status": "correct"
+    },
+    {
+      "number": 58.02,
+      "key": "device.desktop.session_share",
+      "truth": 0.5801865442660824,
+      "status": "correct"
+    },
+    {
+      "number": 143185.0,
+      "key": "device.mobile.n_sessions",
+      "truth": 143185,
+      "status": "correct"
+    },
+    {
+      "number": 39.76,
+      "key": "device.mobile.session_share",
+      "truth": 0.39759364005675746,
+      "status": "correct"
+    },
+    {
+      "number": 8002.0,
+      "key": "device.tablet.n_sessions",
+      "truth": 8002,
+      "status": "correct"
+    },
+    {
+      "number": 2.22,
+      "key": "device.tablet.session_share",
+      "truth": 0.02221981567716013,
+      "status": "correct"
+    },
+    {
+      "number": 71.44,
+      "key": "device.mobile.avg_engagement_seconds",
+      "truth": 71.44439086496443,
+      "status": "correct"
+    },
+    {
+      "number": 3.74,
+      "key": "device.mobile.avg_pageviews_per_session",
+      "truth": 3.7385899360966373,
+      "status": "correct"
+    },
+    {
+      "number": 69.79,
+      "key": "device.desktop.avg_engagement_seconds",
+      "truth": 69.78634895808322,
+      "status": "correct"
+    },
+    {
+      "number": 3.76,
+      "key": "device.desktop.avg_pageviews_per_session",
+      "truth": 3.760699141388565,
+      "status": "correct"
+    },
+    {
+      "number": 65.26,
+      "key": "device.tablet.avg_engagement_seconds",
+      "truth": 65.26091489627584,
+      "status": "correct"
+    },
+    {
+      "number": 3.67,
+      "key": "device.tablet.avg_pageviews_per_session",
+      "truth": 3.6678330417395584,
+      "status": "correct"
+    },
+    {
+      "number": 1.32,
+      "key": "device.desktop.session_conversion_rate",
+      "truth": 0.013156761206459209,
+      "status": "correct"
+    },
+    {
+      "number": 1.39,
+      "key": "device.mobile.session_conversion_rate",
+      "truth": 0.013933023710584209,
+      "status": "correct"
+    },
+    {
+      "number": 1.3,
+      "key": "device.tablet.session_conversion_rate",
+      "truth": 0.012996750812296926,
+      "status": "correct"
+    }
+  ],
+  "untagged_numbers": []
+}

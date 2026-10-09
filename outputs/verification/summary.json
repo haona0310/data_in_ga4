@@ -12,5 +12,33 @@
     "n_untraceable": 0,
     "tagged_accuracy": 1.0,
     "verified_share": 1.0
+  },
+  {
+    "run_id": "20261009_164511",
+    "model": "models/gemini-3.5-flash",
+    "prompt_version": "v3",
+    "n_numbers": 50,
+    "n_tagged": 50,
+    "n_correct": 50,
+    "n_wrong_value": 0,
+    "n_unknown_key": 0,
+    "n_untagged_in_data": 0,
+    "n_untraceable": 0,
+    "tagged_accuracy": 1.0,
+    "verified_share": 1.0
+  },
+  {
+    "run_id": "20261009_165013",
+    "model": "models/gemini-3.5-flash",
+    "prompt_version": "v3",
+    "n_numbers": 49,
+    "n_tagged": 49,
+    "n_correct": 49,
+    "n_wrong_value": 0,
+    "n_unknown_key": 0,
+    "n_untagged_in_data": 0,
+    "n_untraceable": 0,
+    "tagged_accuracy": 1.0,
+    "verified_share": 1.0
   }
 ]
